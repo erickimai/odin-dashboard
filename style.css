@@ -10,7 +10,7 @@ body {
 .main-container {
     height: 100vh;
     display: grid;
-    grid-template: 200px 1fr / 1fr 5fr;
+    grid-template: 150px 1fr / 1fr 5fr;
 }
 
 .header {
@@ -134,7 +134,8 @@ h5 span {
     grid-column: 1 / 3;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: 300px;
 }
 
 .list-projects p {
@@ -173,4 +174,34 @@ h5 span {
     position: absolute;
     bottom: 30px;
     right: 30px;
+}
+
+.news {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.news p {
+    font-size: 12px;
+    font-family: 'Roboto';
+    text-align: left;
+}
+
+.news .title {
+    font-size: 14px;
+}
+
+.news .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    height: 25em;
+    width: 350px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#trending .card {
+    height: 5em;
 }
