@@ -1,8 +1,8 @@
 # Admin-Dashboard
 
-## [Live Demo](https://hmjatt.github.io/Admin-Dashboard/)
+## [Live Demo](https://erickimai.github.io/odin-dashboard/)
 
-![This is an image](https://raw.githubusercontent.com/hmjatt/hmjatt.github.io/master/images/admin-desk-min.png)
+![This is an image](./imgs/8c3Fzvn.png)
 
 
 
